@@ -1,4 +1,9 @@
-﻿using System;
+﻿// Car Rental Program
+// Advanced C#
+// Written by Stephanie Wilson
+// August 27, 2018
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
