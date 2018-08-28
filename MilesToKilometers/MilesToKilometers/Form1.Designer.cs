@@ -37,7 +37,7 @@
             // convertButton
             // 
             this.convertButton.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.convertButton.Location = new System.Drawing.Point(163, 136);
+            this.convertButton.Location = new System.Drawing.Point(173, 142);
             this.convertButton.Name = "convertButton";
             this.convertButton.Size = new System.Drawing.Size(99, 49);
             this.convertButton.TabIndex = 0;
@@ -57,16 +57,17 @@
             // 
             // milesTextBox
             // 
-            this.milesTextBox.Location = new System.Drawing.Point(277, 77);
+            this.milesTextBox.Location = new System.Drawing.Point(278, 77);
             this.milesTextBox.Name = "milesTextBox";
-            this.milesTextBox.Size = new System.Drawing.Size(100, 22);
+            this.milesTextBox.Size = new System.Drawing.Size(70, 22);
             this.milesTextBox.TabIndex = 2;
+            this.milesTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // kilosLabel
             // 
             this.kilosLabel.AutoSize = true;
             this.kilosLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kilosLabel.Location = new System.Drawing.Point(184, 225);
+            this.kilosLabel.Location = new System.Drawing.Point(49, 238);
             this.kilosLabel.Name = "kilosLabel";
             this.kilosLabel.Size = new System.Drawing.Size(0, 20);
             this.kilosLabel.TabIndex = 3;

@@ -25,10 +25,10 @@ namespace MilesToKilometers
         private void convertButton_Click(object sender, EventArgs e)
         {
             const double CONVERT_KILOS = 1.6;
-            double miles, conversion;
+            double miles, kilometers;
             miles = Convert.ToDouble(milesTextBox.Text);
-            conversion = miles * CONVERT_KILOS;
-            kilosLabel.Text = miles + " miles is " + conversion + " kilometers";
+            kilometers = miles * CONVERT_KILOS;
+            kilosLabel.Text = miles + " miles is " + kilometers + " kilometers";
         }
     }
 }
